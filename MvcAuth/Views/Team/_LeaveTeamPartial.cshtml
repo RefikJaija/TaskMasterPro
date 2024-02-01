@@ -1,0 +1,13 @@
+@model MvcAuth.Models.Team
+
+<h2 class="d-flex justify-content-center">Leave Team</h2>
+<div class="container  d-flex justify-content-center ">
+    <form asp-action="LeaveTeam" asp-controller="Team" method="post" class="row row-cols-lg-auto g-3 align-items-center">
+        <input type="hidden" asp-for="TeamID" />
+         <input type="hidden" asp-for="TeamName" />
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-outline-danger">Leave Team</button>
+        </div>
+    </form>
+</div>

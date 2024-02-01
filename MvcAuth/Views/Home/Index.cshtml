@@ -1,0 +1,58 @@
+﻿@model IDictionary<Status, List<Assignment>>
+
+@{
+    ViewBag.Title = "Assignments";
+    Layout = "_Layout";
+}
+
+<h2>Tasks</h2>
+
+<div class="row">
+    @foreach (var statusGroup in Model)
+    {
+        <div class="col-md-4">
+            <div class="card bg-light mb-4">
+                <div class="card-header">
+                    <h4 class="card-title">@statusGroup.Key</h4>
+                </div>
+                <div class="card-body">
+                    @foreach (var assignment in statusGroup.Value)
+                    {
+                        <div class="@(GetPriorityClass(assignment.Priority)) mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">@assignment.Name</h5>
+                                <p class="card-text">@assignment.Description</p>
+                                <p class="card-text">Due Date: @assignment.DueDate.ToShortDateString()</p>
+                            </div>
+                        </div>
+                        <a asp-action="Delete" asp-controller="Home" class="btn btn-outline-danger" asp-route-id="@assignment.AssignmentID">Delete</a>
+                    }
+                </div>
+            </div>
+        </div>
+        
+    }
+    <div class="row">
+        <div class="col-md-12">
+            <a asp-action="Create" asp-controller="Home" class="btn btn-outline-primary">Add Task</a>
+        </div>
+    </div>
+    
+</div>
+
+@functions {
+    string GetPriorityClass(Priority priority)
+    {
+        switch (priority)
+        {
+            case Priority.High:
+                return "card text-white bg-danger"; // high priority
+            case Priority.Medium:
+                return "card text-white bg-warning"; // medium priority
+            case Priority.Low:
+                return "card text-white bg-info"; // low priority
+            default:
+                return ""; // default class
+        }
+    }
+}

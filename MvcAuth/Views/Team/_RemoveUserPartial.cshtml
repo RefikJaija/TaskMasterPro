@@ -1,0 +1,20 @@
+@model MvcAuth.Models.Team
+
+<h2 class="d-flex justify-content-center">Remove User from Team</h2>
+<div class="container d-flex justify-content-center">
+    <form asp-action="AddUser" asp-controller="Team" method="post" class="row row-cols-lg-auto g-3 align-items-center">
+        <input type="hidden" asp-for="TeamID" />
+        <div class="col-12">
+            <label for="newUserEmail" class="col-sm-2 col-form-label col-form-label-sm">User Email</label>
+            <div class="input-group">
+                <div class="input-group-text"><i class="bi bi-person"></i></div>
+                <input type="email" class="form-control" id="newUserEmail" name="newUserEmail" placeholder="Enter user email" required>
+            </div>
+        </div>
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-outline-dark">Remove User</button>
+            <a asp-action="Index" asp-controller="Team" class="btn">Return to Index</a>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,22 @@
+@model MvcAuth.Models.Assignment
+
+@{
+    ViewData["Title"] = "Delete Assignment";
+    Layout = "_Layout";
+}
+
+<h2>Delete Assignment</h2>
+
+<div>
+    <h4>Are you sure you want to delete this assignment?</h4>
+    <div>
+        <h3>Name: @Model.Name</h3>
+        <h4>Description: @Model.Description</h4>
+        <h4>Due Date: @Model.DueDate</h4>
+    </div>
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="AssignmentID" />
+        <button type="submit" class="btn btn-outline-danger">Delete</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

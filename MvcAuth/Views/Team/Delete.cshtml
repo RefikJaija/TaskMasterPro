@@ -1,0 +1,26 @@
+@model MvcAuth.Models.Team?
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+<h2 class="d-flex justify-content-center">Delete Team</h2> 
+<div class="container  d-flex justify-content-center ">
+    <form asp-action="Edit" asp-controller="Team" method="post" class="row row-cols-lg-auto g-3 align-items-center">
+        <input type="hidden" asp-for="TeamID" />
+        <input type="hidden" asp-for="TeamName" />
+        <div class="col-12">
+            <label for="inlineFormInputGroupUsername" class="col-sm-2 col-form-label col-form-label-sm">Name</label>
+            @* <label class="visually-hidden" for="inlineFormInputGroupUsername">TeamName</label> *@
+            <div class="input-group">
+                <div class="input-group-text"><i class="bi bi-microsoft-teams"></i></div>
+                <input type="text" class="form-control" input asp-for="TeamName" id="inlineFormInputGroupUsername" disabled>
+            </div>
+        </div>
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-outline-danger">Delete</button>
+            <a asp-action="Index" asp-controller="Team" class="btn">Return to Index</a>
+        </div>
+    </form>
+</div>
