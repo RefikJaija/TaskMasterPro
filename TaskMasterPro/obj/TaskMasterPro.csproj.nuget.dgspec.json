@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/refikjaija/RiderProjects/MvcAuth/TaskMasterPro/TaskMasterPro.csproj": {}
+    "/Users/refikjaija/RiderProjects/TaskMasterPro/TaskMasterPro/TaskMasterPro.csproj": {}
   },
   "projects": {
-    "/Users/refikjaija/RiderProjects/MvcAuth/TaskMasterPro/TaskMasterPro.csproj": {
+    "/Users/refikjaija/RiderProjects/TaskMasterPro/TaskMasterPro/TaskMasterPro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/refikjaija/RiderProjects/MvcAuth/TaskMasterPro/TaskMasterPro.csproj",
+        "projectUniqueName": "/Users/refikjaija/RiderProjects/TaskMasterPro/TaskMasterPro/TaskMasterPro.csproj",
         "projectName": "TaskMasterPro",
-        "projectPath": "/Users/refikjaija/RiderProjects/MvcAuth/TaskMasterPro/TaskMasterPro.csproj",
+        "projectPath": "/Users/refikjaija/RiderProjects/TaskMasterPro/TaskMasterPro/TaskMasterPro.csproj",
         "packagesPath": "/Users/refikjaija/.nuget/packages/",
-        "outputPath": "/Users/refikjaija/RiderProjects/MvcAuth/TaskMasterPro/obj/",
+        "outputPath": "/Users/refikjaija/RiderProjects/TaskMasterPro/TaskMasterPro/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/refikjaija/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wjgg5Zla5pCKgVylhE2X7EALeCTRvH1rfqXf9cl6qulNOjSRH76tc7vllKBMBudO3dxEYzCeyL/zDy8piVajig==",
+  "dgSpecHash": "06It9TolvakqKHprtnjvpArReTSdjdD2OyvdMcCUHhJaxU885kDALqgLVPFH05vO+28ezb6LzauMlE8p98O5fw==",
   "success": true,
-  "projectFilePath": "/Users/refikjaija/RiderProjects/MvcAuth/TaskMasterPro/TaskMasterPro.csproj",
+  "projectFilePath": "/Users/refikjaija/RiderProjects/TaskMasterPro/TaskMasterPro/TaskMasterPro.csproj",
   "expectedPackageFiles": [
     "/Users/refikjaija/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/refikjaija/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
