@@ -10,30 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b83934d-52d9-48d6-806d-e143029f67ce" name="Changes" comment="git remote add origin https://github.com/RefikJaija/TaskMasterPro.git">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaskMasterPro/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaskMasterPro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaskMasterPro/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/bin/Debug/net7.0/TaskMasterPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/bin/Debug/net7.0/TaskMasterPro.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/bin/Debug/net7.0/TaskMasterPro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/bin/Debug/net7.0/TaskMasterPro.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/bin/Debug/net7.0/TaskMasterPro.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/bin/Debug/net7.0/TaskMasterPro.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/bin/Debug/net7.0/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/bin/Debug/net7.0/app.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/TaskMasterPro.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/TaskMasterPro.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/TaskMasterPro.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/TaskMasterPro.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/TaskMasterPro.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/TaskMasterPro.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/TaskMasterPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/TaskMasterPro.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/TaskMasterPro.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/TaskMasterPro.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/TaskMasterPro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/TaskMasterPro.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/staticwebassets.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/staticwebassets.pack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/staticwebassets/msbuild.TaskMasterPro.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/obj/Debug/net7.0/staticwebassets/msbuild.TaskMasterPro.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/obj/TaskMasterPro.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/obj/TaskMasterPro.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskMasterPro/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TaskMasterPro/obj/rider.project.restore.info" afterDir="false" />
-    </list>
+    <list default="true" id="3b83934d-52d9-48d6-806d-e143029f67ce" name="Changes" comment="cc" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,6 +144,7 @@
       <workItem from="1706798127866" duration="4945000" />
       <workItem from="1707182978088" duration="193000" />
       <workItem from="1720149140604" duration="115000" />
+      <workItem from="1720149291527" duration="445000" />
     </task>
     <task id="LOCAL-00001" summary="git remote add origin https://github.com/RefikJaija/TaskMasterPro.git">
       <option name="closed" value="true" />
@@ -176,7 +154,31 @@
       <option name="project" value="LOCAL" />
       <updated>1706798464409</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes for run">
+      <option name="closed" value="true" />
+      <created>1720149458498</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720149458498</updated>
+    </task>
+    <task id="LOCAL-00003" summary="app db">
+      <option name="closed" value="true" />
+      <created>1720149506945</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720149506945</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cc">
+      <option name="closed" value="true" />
+      <created>1720149580293</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720149580293</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +205,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="git remote add origin https://github.com/RefikJaija/TaskMasterPro.git" />
-    <option name="LAST_COMMIT_MESSAGE" value="git remote add origin https://github.com/RefikJaija/TaskMasterPro.git" />
+    <MESSAGE value="Changes for run" />
+    <MESSAGE value="app db" />
+    <MESSAGE value="cc" />
+    <option name="LAST_COMMIT_MESSAGE" value="cc" />
   </component>
 </project>
